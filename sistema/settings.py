@@ -25,7 +25,7 @@ SECRET_KEY = '!5nr91=0yvll969u$(a=dn3#9chjtzygp=+@oj@shcfxt8shhc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'hospital.db',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd6b59jpi4rfnda',
+        'HOST' :'ec2-3-223-242-224.compute-1.amazonaws.com',
+        'USER' :'uteysbbammkdvq',
+        'PORT' :'5432',
+        'PASSWORD':'9c1e04c2c04ec8babd250e61ecb375e5efe008aedd3b9a83e5c5d1da8eb5c97e',
+        
     }
 }
 
