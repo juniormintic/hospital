@@ -10,6 +10,6 @@ admin.site.register(Familiar)
 admin.site.register(Historico)
 admin.site.register(Sugerencias)
 admin.site.register(SignosVitales)
-admin.site.register(Auxiliar)
+admin.site.register(Auxiliar) 
 
 
