@@ -73,16 +73,27 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+#
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'd6b59jpi4rfnda',
+ #       'HOST' :'ec2-3-223-242-224.compute-1.amazonaws.com',
+#        'USER' :'uteysbbammkdvq',
+#        'PASSWORD':'9c1e04c2c04ec8babd250e61ecb375e5efe008aedd3b9a83e5c5d1da8eb5c97e',
+##        'PORT' :'5432', 
+#        
+#    }
+#}
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd6b59jpi4rfnda',
-        'HOST' :'ec2-3-223-242-224.compute-1.amazonaws.com',
-        'USER' :'uteysbbammkdvq',
-        'PASSWORD':'9c1e04c2c04ec8babd250e61ecb375e5efe008aedd3b9a83e5c5d1da8eb5c97e',
-        'PORT' :'5432', 
-        
+        'NAME':'d2bu6mvqlb38h6', 
+        'HOST':'ec2-34-200-205-45.compute-1.amazonaws.com',
+        'USER':'ytczqlmimyhpyr',
+        'PASSWORD':'e0e6f3474c7bd0ce1f3c2b0ca1cd09bd8cbac776bcb9a077ecee225d7e4318e1',
+        'PORT': '5432',
     }
 }
 
@@ -111,7 +122,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es-col'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Bogota'
 
 USE_I18N = True
 

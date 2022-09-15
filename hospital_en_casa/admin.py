@@ -5,11 +5,11 @@ from .models import *
 admin.site.register(Persona)
 admin.site.register(Paciente)
 admin.site.register(Rol)
-admin.site.register(Doctor)
+admin.site.register(Personal_medico)
 admin.site.register(Familiar)
 admin.site.register(Historico)
 admin.site.register(Sugerencias)
 admin.site.register(SignosVitales)
-admin.site.register(Empleado)
+admin.site.register(Auxiliar)
 
 
